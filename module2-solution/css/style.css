@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    background-color: #ffffff;
+    padding: 10px;
+    font-family:  'Roboto', sans-serif;
+}
+#main-section{
+    padding: 10px;
+}
+
+.heading{
+    padding: 20px 0px;
+    text-align: center;
+}
+.heading h1{
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+.container{
+    width: 100%;
+    height: 300px;
+    padding: 5px;
+    display: flex;
+}
+.sec1, .sec2, .sec3{
+    border:1px solid transparent;
+    border-radius: 10px;
+    flex-basis: 33%;
+    background-color: rgb(189, 182, 182);
+    margin: 20px;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.08), 
+                0 2px 2px rgba(0,0,0,0.12), 
+                0 4px 4px rgba(0,0,0,0.16), 
+                0 8px 8px rgba(0,0,0,0.20);
+    padding: 12px;
+    min-height: 200px;
+   
+}
+
+.container h1{
+    margin-top: 5px;
+    margin-right: 5px;
+    font-weight: normal;
+    margin-left: auto;
+    text-align: center;
+    background-color:rgb(221, 181, 181);
+    padding: 5px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    width: 130px;
+}
+
+.container p {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+/* Tab view*/
+@media only screen and (max-width: 991px){
+    .container{
+        display: block;
+    }
+    .sec1{
+        float: left;
+        width: 40%;
+       
+    }
+    .sec2{
+        float: right;
+        width: 40%;
+    }
+    .sec3{
+        margin-top: 280px;
+    }
+
+  
+}
+
+/* mobile view*/
+@media only screen and (max-width: 767px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+  
+    .sec1, .sec2, .sec3{
+        float: none;
+        width: 85%;
+        margin-top: 0px;
+        min-height: 300px;
+        margin-left:2px;
+    }
+
+    .container p{
+        font-size: 18px;
+    }
+    
+}
