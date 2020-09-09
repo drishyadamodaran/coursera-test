@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+*{
+    margin: 0px;
+}
+
+#header{
+    width: 100%;
+    height: 80px;
+    background-color: palegoldenrod;
+    margin-top: -15px;
+    position: sticky
+    }
+
+#header h1{
+    color: black;
+    font-size: 32px;
+    font-family: 'Righteous', cursive;
+    font-weight: normal;
+    padding: 22px;
+    margin-left: 4px;
+  
+  }
+
+
+#header  ul{
+      float: right;
+      width: auto;
+      margin-top: -58px;
+  }
+ 
+#header ul li{
+display: inline-block;
+margin: auto;
+}
+
+#header ul li a{
+    color: black;
+    float: right;
+    text-align: center;
+    margin-top: 7px;
+    font-size: 20px;
+    margin-right: 15px;
+   text-decoration: none;
+}
+#header ul li a:hover{
+    color: thistle;
+}
