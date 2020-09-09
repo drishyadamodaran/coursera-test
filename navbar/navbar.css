@@ -43,3 +43,6 @@ header a{
     margin-right: 15px;
    text-decoration: none;
 }
+a:hover{
+    color: thistle;
+}
